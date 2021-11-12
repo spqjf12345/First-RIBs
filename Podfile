@@ -7,5 +7,5 @@ target 'First-RiBs' do
 
   # Pods for First-RiBs
 pod 'RIBs', '~> 0.9'
-
+pod 'SnapKit', '~> 4.0.0'
 end
