@@ -8,6 +8,6 @@ target 'First-RiBs' do
   # Pods for First-RiBs
 pod 'RIBs', '~> 0.9'
 pod 'SnapKit', '~> 4.0.0'
-pod 'RxSwift', '6.5.0'
-pod 'RxCocoa', '6.5.0'
+pod 'RxSwift', '4.5.0'
+pod 'RxCocoa', '4.5.0'
 end

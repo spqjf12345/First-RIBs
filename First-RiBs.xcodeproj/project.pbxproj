@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E22180D282D063B00A4982B /* ScoreStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E22180C282D063B00A4982B /* ScoreStream.swift */; };
 		8E787789273EACA9007C43E0 /* First_RiBs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E787787273EACA9007C43E0 /* First_RiBs.xcdatamodeld */; };
 		8E7877AD273EC039007C43E0 /* RootComponent+LoggedOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E78779E273EC038007C43E0 /* RootComponent+LoggedOut.swift */; };
 		8E7877AE273EC039007C43E0 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E78779F273EC038007C43E0 /* RootInteractor.swift */; };
@@ -35,13 +34,16 @@
 		8EA6A2ED282403E200923288 /* OffGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA6A2E9282403E200923288 /* OffGameViewController.swift */; };
 		8EA6A2EE282403E200923288 /* OffGameBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA6A2EA282403E200923288 /* OffGameBuilder.swift */; };
 		8EA6A2EF282403E200923288 /* OffGameInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA6A2EB282403E200923288 /* OffGameInteractor.swift */; };
+		8EB899932832396900C701DD /* ActionableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB899922832396900C701DD /* ActionableItem.swift */; };
+		8EB8999628323AA000C701DD /* PlayerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8999528323AA000C701DD /* PlayerType.swift */; };
+		8EB8999828323B2D00C701DD /* ScoreStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8999728323B2D00C701DD /* ScoreStream.swift */; };
+		8EB8999A28323B4900C701DD /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8999928323B4900C701DD /* Stub.swift */; };
 		F75AFEB937F6C6490944E635 /* Pods_First_RiBs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1F5309FC07B85F91FABD4 /* Pods_First_RiBs.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4EF5573E9DE35F12CDCA5203 /* Pods-First-RiBs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First-RiBs.debug.xcconfig"; path = "Target Support Files/Pods-First-RiBs/Pods-First-RiBs.debug.xcconfig"; sourceTree = "<group>"; };
 		59B1F5309FC07B85F91FABD4 /* Pods_First_RiBs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_First_RiBs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E22180C282D063B00A4982B /* ScoreStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreStream.swift; sourceTree = "<group>"; };
 		8E78777B273EACA9007C43E0 /* First-RiBs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-RiBs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E787788273EACA9007C43E0 /* First_RiBs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = First_RiBs.xcdatamodel; sourceTree = "<group>"; };
 		8E78778F273EACB2007C43E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +73,10 @@
 		8EA6A2E9282403E200923288 /* OffGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffGameViewController.swift; sourceTree = "<group>"; };
 		8EA6A2EA282403E200923288 /* OffGameBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffGameBuilder.swift; sourceTree = "<group>"; };
 		8EA6A2EB282403E200923288 /* OffGameInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffGameInteractor.swift; sourceTree = "<group>"; };
+		8EB899922832396900C701DD /* ActionableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionableItem.swift; sourceTree = "<group>"; };
+		8EB8999528323AA000C701DD /* PlayerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerType.swift; sourceTree = "<group>"; };
+		8EB8999728323B2D00C701DD /* ScoreStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreStream.swift; sourceTree = "<group>"; };
+		8EB8999928323B4900C701DD /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
 		C5F9E37014990A7887D82036 /* Pods-First-RiBs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First-RiBs.release.xcconfig"; path = "Target Support Files/Pods-First-RiBs/Pods-First-RiBs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +130,9 @@
 		8E78777D273EACA9007C43E0 /* First-RiBs */ = {
 			isa = PBXGroup;
 			children = (
+				8EB8999B28323B4C00C701DD /* Promo */,
+				8EB8999428323A8B00C701DD /* Models */,
+				8EB899912832394000C701DD /* ActionableItems */,
 				8EA6A2E7282403C600923288 /* OffGame */,
 				8E7877CC273ED274007C43E0 /* TicTacToe */,
 				8E7877B9273ECD61007C43E0 /* LoggedIn */,
@@ -190,7 +199,6 @@
 				8E7877C5273ECEF0007C43E0 /* LoggedInRouter.swift */,
 				8E7877BA273ECD61007C43E0 /* LoggedInComponent+TicTacToe.swift */,
 				8E7877BB273ECD61007C43E0 /* LoggedInComponent+OffGame.swift */,
-				8E22180C282D063B00A4982B /* ScoreStream.swift */,
 			);
 			name = LoggedIn;
 			path = ../../RIBs/ios/tutorials/tutorial2/TicTacToe/LoggedIn;
@@ -217,6 +225,31 @@
 				8EA6A2EB282403E200923288 /* OffGameInteractor.swift */,
 			);
 			path = OffGame;
+			sourceTree = "<group>";
+		};
+		8EB899912832394000C701DD /* ActionableItems */ = {
+			isa = PBXGroup;
+			children = (
+				8EB899922832396900C701DD /* ActionableItem.swift */,
+			);
+			path = ActionableItems;
+			sourceTree = "<group>";
+		};
+		8EB8999428323A8B00C701DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8EB8999728323B2D00C701DD /* ScoreStream.swift */,
+				8EB8999528323AA000C701DD /* PlayerType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8EB8999B28323B4C00C701DD /* Promo */ = {
+			isa = PBXGroup;
+			children = (
+				8EB8999928323B4900C701DD /* Stub.swift */,
+			);
+			path = Promo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +369,7 @@
 				8E7877B4273EC039007C43E0 /* AppDelegate.swift in Sources */,
 				8EA6A2ED282403E200923288 /* OffGameViewController.swift in Sources */,
 				8EA6A2EC282403E200923288 /* OffGameRouter.swift in Sources */,
+				8EB8999628323AA000C701DD /* PlayerType.swift in Sources */,
 				8EA6A2EE282403E200923288 /* OffGameBuilder.swift in Sources */,
 				8E7877B8273EC039007C43E0 /* LoggedOutRouter.swift in Sources */,
 				8E7877B6273EC039007C43E0 /* LoggedOutInteractor.swift in Sources */,
@@ -344,15 +378,17 @@
 				8E7877BC273ECD61007C43E0 /* LoggedInComponent+TicTacToe.swift in Sources */,
 				8E7877B0273EC039007C43E0 /* RootRouter.swift in Sources */,
 				8E7877AE273EC039007C43E0 /* RootInteractor.swift in Sources */,
+				8EB899932832396900C701DD /* ActionableItem.swift in Sources */,
 				8E7877AD273EC039007C43E0 /* RootComponent+LoggedOut.swift in Sources */,
+				8EB8999A28323B4900C701DD /* Stub.swift in Sources */,
 				8E7877BD273ECD61007C43E0 /* LoggedInComponent+OffGame.swift in Sources */,
 				8E7877CB273ECFBC007C43E0 /* RootComponent+LoggedIn.swift in Sources */,
 				8E7877C8273ECEF0007C43E0 /* LoggedInRouter.swift in Sources */,
 				8E7877D4273ED274007C43E0 /* TicTacToeRouter.swift in Sources */,
 				8E7877AF273EC039007C43E0 /* RootViewController.swift in Sources */,
+				8EB8999828323B2D00C701DD /* ScoreStream.swift in Sources */,
 				8E7877B3273EC039007C43E0 /* AppComponent.swift in Sources */,
 				8E7877B1273EC039007C43E0 /* RootBuilder.swift in Sources */,
-				8E22180D282D063B00A4982B /* ScoreStream.swift in Sources */,
 				8E7877D2273ED274007C43E0 /* TicTacToeInteractor.swift in Sources */,
 				8E7877B7273EC039007C43E0 /* LoggedOutBuilder.swift in Sources */,
 				8E7877D1273ED274007C43E0 /* TicTacToeViewController.swift in Sources */,
