@@ -38,6 +38,18 @@
 		8EB8999628323AA000C701DD /* PlayerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8999528323AA000C701DD /* PlayerType.swift */; };
 		8EB8999828323B2D00C701DD /* ScoreStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8999728323B2D00C701DD /* ScoreStream.swift */; };
 		8EB8999A28323B4900C701DD /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8999928323B4900C701DD /* Stub.swift */; };
+		8EB8999D2832426900C701DD /* TicTacToeAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8999C2832426900C701DD /* TicTacToeAdapter.swift */; };
+		8EB8999F2832428200C701DD /* RandomWinAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8999E2832428200C701DD /* RandomWinAdapter.swift */; };
+		8EB899A1283242AB00C701DD /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB899A0283242AB00C701DD /* Game.swift */; };
+		8EB899A72832453F00C701DD /* BasicScoreBoardBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB899A32832453F00C701DD /* BasicScoreBoardBuilder.swift */; };
+		8EB899A82832453F00C701DD /* BasicScoreBoardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB899A42832453F00C701DD /* BasicScoreBoardInteractor.swift */; };
+		8EB899A92832453F00C701DD /* BasicScoreBoardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB899A52832453F00C701DD /* BasicScoreBoardRouter.swift */; };
+		8EB899AA2832453F00C701DD /* BasicScoreBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB899A62832453F00C701DD /* BasicScoreBoardViewController.swift */; };
+		8EB899B02832484B00C701DD /* RandomWinBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB899AC2832484B00C701DD /* RandomWinBuilder.swift */; };
+		8EB899B12832484B00C701DD /* RandomWinInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB899AD2832484B00C701DD /* RandomWinInteractor.swift */; };
+		8EB899B22832484B00C701DD /* RandomWinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB899AE2832484B00C701DD /* RandomWinViewController.swift */; };
+		8EB899B32832484B00C701DD /* RandomWinRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB899AF2832484B00C701DD /* RandomWinRouter.swift */; };
+		8EB899B528324A0100C701DD /* LoggedInComponent+RandomWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB899B428324A0100C701DD /* LoggedInComponent+RandomWin.swift */; };
 		F75AFEB937F6C6490944E635 /* Pods_First_RiBs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1F5309FC07B85F91FABD4 /* Pods_First_RiBs.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +89,18 @@
 		8EB8999528323AA000C701DD /* PlayerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerType.swift; sourceTree = "<group>"; };
 		8EB8999728323B2D00C701DD /* ScoreStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreStream.swift; sourceTree = "<group>"; };
 		8EB8999928323B4900C701DD /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
+		8EB8999C2832426900C701DD /* TicTacToeAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeAdapter.swift; sourceTree = "<group>"; };
+		8EB8999E2832428200C701DD /* RandomWinAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomWinAdapter.swift; sourceTree = "<group>"; };
+		8EB899A0283242AB00C701DD /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		8EB899A32832453F00C701DD /* BasicScoreBoardBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicScoreBoardBuilder.swift; sourceTree = "<group>"; };
+		8EB899A42832453F00C701DD /* BasicScoreBoardInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicScoreBoardInteractor.swift; sourceTree = "<group>"; };
+		8EB899A52832453F00C701DD /* BasicScoreBoardRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicScoreBoardRouter.swift; sourceTree = "<group>"; };
+		8EB899A62832453F00C701DD /* BasicScoreBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicScoreBoardViewController.swift; sourceTree = "<group>"; };
+		8EB899AC2832484B00C701DD /* RandomWinBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomWinBuilder.swift; sourceTree = "<group>"; };
+		8EB899AD2832484B00C701DD /* RandomWinInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomWinInteractor.swift; sourceTree = "<group>"; };
+		8EB899AE2832484B00C701DD /* RandomWinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomWinViewController.swift; sourceTree = "<group>"; };
+		8EB899AF2832484B00C701DD /* RandomWinRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomWinRouter.swift; sourceTree = "<group>"; };
+		8EB899B428324A0100C701DD /* LoggedInComponent+RandomWin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoggedInComponent+RandomWin.swift"; sourceTree = "<group>"; };
 		C5F9E37014990A7887D82036 /* Pods-First-RiBs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First-RiBs.release.xcconfig"; path = "Target Support Files/Pods-First-RiBs/Pods-First-RiBs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +154,8 @@
 		8E78777D273EACA9007C43E0 /* First-RiBs */ = {
 			isa = PBXGroup;
 			children = (
+				8EB899AB2832484B00C701DD /* RandomWin */,
+				8EB899A22832453F00C701DD /* ScoreBoard */,
 				8EB8999B28323B4C00C701DD /* Promo */,
 				8EB8999428323A8B00C701DD /* Models */,
 				8EB899912832394000C701DD /* ActionableItems */,
@@ -198,7 +224,11 @@
 				8E7877C4273ECEEF007C43E0 /* LoggedInInteractor.swift */,
 				8E7877C5273ECEF0007C43E0 /* LoggedInRouter.swift */,
 				8E7877BA273ECD61007C43E0 /* LoggedInComponent+TicTacToe.swift */,
+				8EB899B428324A0100C701DD /* LoggedInComponent+RandomWin.swift */,
 				8E7877BB273ECD61007C43E0 /* LoggedInComponent+OffGame.swift */,
+				8EB8999C2832426900C701DD /* TicTacToeAdapter.swift */,
+				8EB8999E2832428200C701DD /* RandomWinAdapter.swift */,
+				8EB899A0283242AB00C701DD /* Game.swift */,
 			);
 			name = LoggedIn;
 			path = ../../RIBs/ios/tutorials/tutorial2/TicTacToe/LoggedIn;
@@ -250,6 +280,28 @@
 				8EB8999928323B4900C701DD /* Stub.swift */,
 			);
 			path = Promo;
+			sourceTree = "<group>";
+		};
+		8EB899A22832453F00C701DD /* ScoreBoard */ = {
+			isa = PBXGroup;
+			children = (
+				8EB899A32832453F00C701DD /* BasicScoreBoardBuilder.swift */,
+				8EB899A42832453F00C701DD /* BasicScoreBoardInteractor.swift */,
+				8EB899A52832453F00C701DD /* BasicScoreBoardRouter.swift */,
+				8EB899A62832453F00C701DD /* BasicScoreBoardViewController.swift */,
+			);
+			path = ScoreBoard;
+			sourceTree = "<group>";
+		};
+		8EB899AB2832484B00C701DD /* RandomWin */ = {
+			isa = PBXGroup;
+			children = (
+				8EB899AC2832484B00C701DD /* RandomWinBuilder.swift */,
+				8EB899AD2832484B00C701DD /* RandomWinInteractor.swift */,
+				8EB899AE2832484B00C701DD /* RandomWinViewController.swift */,
+				8EB899AF2832484B00C701DD /* RandomWinRouter.swift */,
+			);
+			path = RandomWin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,16 +418,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E7877C9273ECEF0007C43E0 /* LoggedInBuilder.swift in Sources */,
+				8EB8999F2832428200C701DD /* RandomWinAdapter.swift in Sources */,
+				8EB8999D2832426900C701DD /* TicTacToeAdapter.swift in Sources */,
 				8E7877B4273EC039007C43E0 /* AppDelegate.swift in Sources */,
+				8EB899AA2832453F00C701DD /* BasicScoreBoardViewController.swift in Sources */,
 				8EA6A2ED282403E200923288 /* OffGameViewController.swift in Sources */,
 				8EA6A2EC282403E200923288 /* OffGameRouter.swift in Sources */,
 				8EB8999628323AA000C701DD /* PlayerType.swift in Sources */,
 				8EA6A2EE282403E200923288 /* OffGameBuilder.swift in Sources */,
 				8E7877B8273EC039007C43E0 /* LoggedOutRouter.swift in Sources */,
+				8EB899B528324A0100C701DD /* LoggedInComponent+RandomWin.swift in Sources */,
+				8EB899A82832453F00C701DD /* BasicScoreBoardInteractor.swift in Sources */,
 				8E7877B6273EC039007C43E0 /* LoggedOutInteractor.swift in Sources */,
 				8E7877B5273EC039007C43E0 /* LoggedOutViewController.swift in Sources */,
 				8E7877D3273ED274007C43E0 /* TicTacToeBuilder.swift in Sources */,
+				8EB899B32832484B00C701DD /* RandomWinRouter.swift in Sources */,
 				8E7877BC273ECD61007C43E0 /* LoggedInComponent+TicTacToe.swift in Sources */,
+				8EB899B02832484B00C701DD /* RandomWinBuilder.swift in Sources */,
 				8E7877B0273EC039007C43E0 /* RootRouter.swift in Sources */,
 				8E7877AE273EC039007C43E0 /* RootInteractor.swift in Sources */,
 				8EB899932832396900C701DD /* ActionableItem.swift in Sources */,
@@ -389,11 +448,16 @@
 				8EB8999828323B2D00C701DD /* ScoreStream.swift in Sources */,
 				8E7877B3273EC039007C43E0 /* AppComponent.swift in Sources */,
 				8E7877B1273EC039007C43E0 /* RootBuilder.swift in Sources */,
+				8EB899B12832484B00C701DD /* RandomWinInteractor.swift in Sources */,
 				8E7877D2273ED274007C43E0 /* TicTacToeInteractor.swift in Sources */,
 				8E7877B7273EC039007C43E0 /* LoggedOutBuilder.swift in Sources */,
+				8EB899A1283242AB00C701DD /* Game.swift in Sources */,
 				8E7877D1273ED274007C43E0 /* TicTacToeViewController.swift in Sources */,
+				8EB899A72832453F00C701DD /* BasicScoreBoardBuilder.swift in Sources */,
 				8E7877C7273ECEF0007C43E0 /* LoggedInInteractor.swift in Sources */,
+				8EB899A92832453F00C701DD /* BasicScoreBoardRouter.swift in Sources */,
 				8EA6A2EF282403E200923288 /* OffGameInteractor.swift in Sources */,
+				8EB899B22832484B00C701DD /* RandomWinViewController.swift in Sources */,
 				8E787789273EACA9007C43E0 /* First_RiBs.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

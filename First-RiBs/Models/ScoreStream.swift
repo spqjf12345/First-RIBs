@@ -23,7 +23,7 @@
 
 import RxSwift
 
-struct Score {
+public struct Score {
     let player1Score: Int
     let player2Score: Int
 
@@ -32,11 +32,11 @@ struct Score {
     }
 }
 
-protocol ScoreStream: AnyObject {
+public protocol ScoreStream: AnyObject {
     var score: Observable<Score> { get }
 }
 
-protocol MutableScoreStream: ScoreStream {
+public protocol MutableScoreStream: ScoreStream {
     func updateScore(withWinner winner: PlayerType)
 }
 
